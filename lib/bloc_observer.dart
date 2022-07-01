@@ -7,7 +7,7 @@ class PizzaBlocObserver extends BlocObserver {
   void onEvent(Bloc bloc, Object? event) {
     super.onEvent(bloc, event);
     if (kDebugMode) {
-      print("event :------ $event");
+      print("event :----- $event");
     }
   }
 
